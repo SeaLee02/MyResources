@@ -1,0 +1,12 @@
+数据库链接：
+企业版破解：
+1.先安装Java Jre 环境
+下载地址： https://www.oracle.com/java/technologies/javase-jre8-downloads.html
+
+2.下载安装 https://dbeaver.io/download/  选择企业版
+安装企业版Dbeaver，删除安装目录 jre文件夹  
+
+3. 修改  dbeaver.ini  文件
+最后加上：
+-vm:C:\Program Files\Java\jre1.8.0_281
+-javaagent:D:\Program Files\DBeaverEE\dbeaver-agent-new\dbeaver-agent.jar
